@@ -18,24 +18,24 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://youdybirthdaysurprise.vercel.app/"),
-  title: "Babe's Birthday Invitation 🎂",
-  description: "Join us in celebrating Babe's Birthday!",
+  title: "Babe's Birthday Surprise 🎂",
+  description: "Because you deserve more than just a 'Happy Birthday'.",
   generator: "Digitiva",
   openGraph: {
     type: "website",
-    title: "Babe's Birthday Invitation 🎂",
-    description: "Join us in celebrating Babe's Birthday!",
+    title: "Babe's Birthday Surprise 🎂",
+    description: "Because you deserve more than just a 'Happy Birthday'.",
     images: [
       {
         url: "/preview.jpg",
-        alt: "Babe's Birthday Invitation",
+        alt: "Babe's Birthday Surprise",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Babe's Birthday Invitation 🎂",
-    description: "Join us in celebrating Babe's Birthday!",
+    title: "Babe's Birthday Surprise 🎂",
+    description: "Because you deserve more than just a 'Happy Birthday'.",
     images: ["/preview.jpg"],
   },
   icons: {
@@ -54,18 +54,18 @@ export default function RootLayout({
       <head>
         {/* ✅ Open Graph tags for Facebook & WhatsApp previews */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Babe's Birthday Invitation 🎂" />
-        <meta property="og:description" content="Join us in celebrating Babe's Birthday!" />
+        <meta property="og:title" content="Babe's Birthday Surprise 🎂" />
+        <meta property="og:description" content="Because you deserve more than just a 'Happy Birthday'." />
         <meta
           property="og:image"
           content="/preview.jpg"
         />
-        <meta property="og:image:alt" content="Babe's Birthday Invitation" />
+        <meta property="og:image:alt" content="Babe's Birthday Surprise" />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Babe's Birthday Invitation 🎂" />
-        <meta name="twitter:description" content="Join us in celebrating Babe's Birthday!" />
+        <meta name="twitter:title" content="Babe's Birthday Surprise 🎂" />
+        <meta name="twitter:description" content="Because you deserve more than just a 'Happy Birthday'." />
         <meta name="twitter:image" content="/preview.jpg" />
 
         {/* Preload All Invitation & Asset Images for Zero Lag */}
