@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://birthday-invitation.com"),
+  metadataBase: new URL("https://youdybirthdaysurprise.vercel.app/"),
   title: "Babe's Birthday Invitation 🎂",
   description: "Join us in celebrating Babe's Birthday!",
   generator: "Digitiva",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: "Join us in celebrating Babe's Birthday!",
     images: [
       {
-        url: "/invitation.jpg",
+        url: "/preview.jpg",
         alt: "Babe's Birthday Invitation",
       },
     ],
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Babe's Birthday Invitation 🎂",
     description: "Join us in celebrating Babe's Birthday!",
-    images: ["/invitation.jpg"],
+    images: ["/preview.jpg"],
   },
   icons: {
     icon: "/invitation.jpg",
@@ -58,7 +58,7 @@ export default function RootLayout({
         <meta property="og:description" content="Join us in celebrating Babe's Birthday!" />
         <meta
           property="og:image"
-          content="/invitation.jpg"
+          content="/preview.jpg"
         />
         <meta property="og:image:alt" content="Babe's Birthday Invitation" />
 
@@ -66,7 +66,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Babe's Birthday Invitation 🎂" />
         <meta name="twitter:description" content="Join us in celebrating Babe's Birthday!" />
-        <meta name="twitter:image" content="/invitation.jpg" />
+        <meta name="twitter:image" content="/preview.jpg" />
 
         {/* Preload All Invitation & Asset Images for Zero Lag */}
         <link rel="preload" href="/invitation.jpg" as="image" type="image/jpeg" />
